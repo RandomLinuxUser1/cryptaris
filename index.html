@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cryptaris — Spooky Season Sale</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta name="description" content="Cryptaris - Spooky Season 15% OFF." />
+</head>
+
+<body>
+    <!-- falling-canvas layers -->
+    <canvas id="bg-canvas"></canvas>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo-wrap">
+                <img id="logo" src="assets/logo.png" alt="Cryptaris logo" />
+                <div class="brand">
+                    <h1>CRYPTARIS</h1>
+                    <p class="tagline">Optimized Power & easy to use</p>
+                </div>
+            </div>
+
+            <div class="sale-banner">🎃 Spooky Sale! <strong>15% OFF</strong> Cryptaris Premium — Limited Time 👻</div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-left">
+                <h2>Cryptaris — The next generation of optimized combat</h2>
+                <p class="lead">Advanced PvP client for Donut SMP. Smooth, fast, and spooky for Halloween! </p>
+
+                <div class="cta-row">
+                    <a class="btn btn-primary" href="#" id="download-free">Download Free Version</a>
+                    <a class="btn btn-accent" href="https://discord.gg/DFejy6BdFt" id="purchase-paid" target="_blank"
+                        rel="noopener">Purchase Paid Version (15% OFF!)</a>
+                </div>
+
+                <p class="disclaimer">⚠️ <em>This product is provided as-is. We are not responsible for any bans or
+                        punishments that may occur from using this.</em></p>
+
+                <div class="howto">
+                    <h3>How to buy</h3>
+                    <ol>
+                        <li>Join the discord. Make the the status is <strong>green 💚</strong>.</li>
+                        <li>Open a ticket, we will give you the role after payment.</li>
+                        <li>When your time expires, the role will be removed. YOU WILL LOSE ACESS TO THE CLIENT.</li>
+                    </ol>
+                </div>
+
+                <div class="pricing">
+                    <div class="price-card">
+                        <div class="price-emoji">🍬</div>
+                        <div class="price-title">3 Weeks</div>
+                        <div class="price-old">$2.99</div>
+                        <div class="price-new">$2.54</div>
+                    </div>
+                    <div class="price-card">
+                        <div class="price-emoji">🕯️</div>
+                        <div class="price-title">6 Weeks</div>
+                        <div class="price-old">$4.99</div>
+                        <div class="price-new">$4.24</div>
+                    </div>
+                    <div class="price-card">
+                        <div class="price-emoji">💀</div>
+                        <div class="price-title">Lifetime</div>
+                        <div class="price-old">$7.99</div>
+                        <div class="price-new">$6.79</div>
+                    </div>
+                </div>
+
+                <div class="payments">
+                    <strong>Payment Methods:</strong>
+                    <span class="pill">Venmo</span>
+                    <span class="pill">CashApp</span>
+                    <span class="pill">Robux</span>
+                </div>
+            </div>
+
+            <aside class="hero-right">
+                <div class="features-card">
+                    <button class="small-btn" id="view-features">View Features</button>
+                    <div class="discord-join">
+                        <a class="btn btn-ghost" href="https://discord.gg/DFejy6BdFt" target="_blank"
+                            rel="noopener">Join Our Discord</a>
+                    </div>
+                </div>
+
+                <div class="mini-disclaimer">
+                    <small>© 2025 Cryptaris Client. Not affiliated with Mojang or Microsoft.</small>
+                </div>
+            </aside>
+        </section>
+
+        <section id="features-section" class="features-section hidden">
+            <div class="features-inner">
+                <div class="features-header">
+                    <h2>Features - Free vs Paid</h2>
+                    <p>Click any module group to expand details.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="panel free-panel">
+                        <h3>Free Version</h3>
+
+                        <div class="module">
+                            <h4>Crystal Manager</h4>
+                            <ul>
+                                <li>AUTO CRYSTAL</li>
+                                <li>QUICK CRYSTAL</li>
+                                <li>DOUBLE ANCHOR</li>
+                                <li>ANCHOR MACRO</li>
+                            </ul>
+                        </div>
+
+                        <div class="module">
+                            <h4>Scanner</h4>
+                            <ul>
+                                <li>AUTO MINE BASE FINDER</li>
+                                <li>RTP BASE FINDER</li>
+                                <li>CHUNK FINDER</li>
+                                <li>XRAY</li>
+                            </ul>
+                        </div>
+
+                        <div class="module">
+                            <h4>Visual</h4>
+                            <ul>
+                                <li>FREE CAM</li>
+                                <li>HITBOX</li>
+                                <li>PLAYER ESP</li>
+                                <li>CHEST ESP</li>
+                            </ul>
+                        </div>
+
+                        <div class="module">
+                            <h4>Combat</h4>
+                            <ul>
+                                <li>AUTO TOTEM</li>
+                                <li>INV TOTEM</li>
+                                <li>HOVER TOTEM</li>
+                                <li>ELYTRA SWAP</li>
+                                <li>MACE SWAP</li>
+                            </ul>
+                        </div>
+
+                        <div class="module">
+                            <h4>Cryptaris Settings</h4>
+                            <ul>
+                                <li>MODULE SETTINGS</li>
+                                <li>PERFORMANCE OPTIMIZER</li>
+                                <li>EMERGENCY SHUTDOWN</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="panel paid-panel">
+                        <h3>Paid Version</h3>
+
+                        <div class="module">
+                            <h4>Crystal Manager (Paid)</h4>
+                            <ul>
+                                <li>AUTO CRYSTAL</li>
+                                <li>CRYSTAL OPTIMIZER</li>
+                                <li>DOUBLE ANCHOR</li>
+                                <li>ANCHOR MACRO</li>
+                                <li>ANCHOR AURA</li>
+                                <li>ANCHOR PLACE</li>
+                            </ul>
+                        </div>
+
+                        <div class="module">
+                            <h4>Scanner</h4>
+                            <ul>
+                                <li>AUTO MINE BASE FINDER</li>
+                                <li>RTP BASE FINDER</li>
+                                <li>CHUNK FINDER</li>
+                                <li>XRAY</li>
+                            </ul>
+                        </div>
+
+                        <div class="module">
+                            <h4>Visual</h4>
+                            <ul>
+                                <li>FREE CAM</li>
+                                <li>HITBOX</li>
+                                <li>PLAYER ESP</li>
+                                <li>CHEST ESP</li>
+                            </ul>
+                        </div>
+
+                        <div class="module">
+                            <h4>Combat</h4>
+                            <ul>
+                                <li>AUTO TOTEM</li>
+                                <li>INV TOTEM</li>
+                                <li>HOVER TOTEM</li>
+                                <li>ELYTRA SWAP</li>
+                                <li>MACE SWAP</li>
+                                <li>TRIGGER BOT</li>
+                            </ul>
+                        </div>
+
+                        <div class="module">
+                            <h4>Display & Settings</h4>
+                            <ul>
+                                <li>INTERFACE (GUI Editor)</li>
+                                <li>CONTROL PANEL</li>
+                                <li>CRYPTARIS CONFIG</li>
+                                <li>PERFORMANCE OPTIMIZER</li>
+                                <li>EMERGENCY SHUTDOWN</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="features-close">
+                    <button class="small-btn" id="close-features">Close</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>© 2025 Cryptaris Client. Not affiliated with Mojang or Microsoft.</div>
+            <div class="footer-disclaimer">This product is provided as-is. We are not responsible for any bans or
+                punishments that may occur from using this.</div>
+            <div class="footer-join"><a href="https://discord.gg/DFejy6BdFt" target="_blank" rel="noopener">Join Our
+                    Discord</a></div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
